@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>hello</title>
+</head>
+
+<style>
+    input[type=text] {
+        color: pink;
+    }
+
+    div[class^=icon] {
+        color: red;
+    }
+
+    section[class$=data] {
+        color: aquamarine;
+    }
+
+    ul li:nth-child(2n) {
+        color: aqua;
+    }
+
+    ol li:last-child {
+        color: cadetblue;
+    }
+
+    .test::before {
+        content: '我';
+    }
+
+    .test::after {
+        content: '哈哈哈哈';
+    }
+
+    .a{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        transition: all 1.5s;
+    }
+    .a:hover{
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+    }
+</style>
+
+<body>
+    <input type="text">
+
+    <div class="icon1">小图标1</div>
+    <div class="icon2">小图标2</div>
+    <div class="icon3">小图标3</div>
+    <div class="icon4">小图标4</div>
+
+    <section class="icon1-data">我是谁</section>
+    <section class="icon2-data">你是谁</section>
+    <section class="icon3-data">他是谁</section>
+
+
+
+    <ul>
+        <li>第一个孩子</li>
+        <li>第二个孩子</li>
+        <li>第三个孩子</li>
+        <li>第四个孩子</li>
+        <li>第五个孩子</li>
+        <li>第六个孩子</li>
+    </ul>
+
+    <ol>
+        <li>第一个孩子</li>
+        <li>第二个孩子</li>
+        <li>第三个孩子</li>
+        <li>第四个孩子</li>
+        <li>第五个孩子</li>
+        <li>第六个孩子</li>
+    </ol>
+
+    <div class="test">是</div>
+
+    <div class="a"></div>
+</body>
+
+</html>
